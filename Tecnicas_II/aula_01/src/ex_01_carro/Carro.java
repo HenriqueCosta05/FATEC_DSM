@@ -47,7 +47,7 @@ public class Carro {
         }
     }
 
-    private boolean ehIgual(Carro c1, Carro c2) {
+    public boolean ehIgual(Carro c1, Carro c2) {
         return c1.marca.equalsIgnoreCase(c2.marca) && c1.modelo.equalsIgnoreCase(c2.modelo) && c1.cor.equalsIgnoreCase(c2.cor) && c1.ano == c2.ano;
     }
 }

@@ -27,6 +27,6 @@ public class CarroTest {
     public void testEhIgual(){
         Carro c1 = new Carro("Fiat", "Preto", "Uno", 2013);
         Carro c2 = new Carro("Fiat", "Preto", "Uno", 2013);
-        assertEquals(c1.getVelocidade(), 0);
+        assertTrue(c1.ehIgual(c1, c2));
     }
 }
