@@ -30,7 +30,7 @@ import strategies.*;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-public class Mensagem {
+public class Mensagem implements Dia {
 
     Dia msg;
     private GregorianCalendar calendar = new GregorianCalendar();

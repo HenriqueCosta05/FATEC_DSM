@@ -38,4 +38,4 @@ Este princípio define que uma variável declarada como do tipo da superclasse p
 
 # Exercício de fixação
 
-[Tarefa - Strategy](Aula%2002%20-%20Padro%CC%83es%20de%20Projeto%201%20Strategy%203fa302d787cf433b9435c00cd80609b3/Tarefa%20-%20Strategy%20e5d1eebc9d3a4c71a2009b5f25cd1915.md)
+[Tarefa - Strategy](./Aula%2002%20-%20Padrões%20de%20Projeto%201%20Strategy%203fa302d787cf433b9435c00cd80609b3/Tarefa%20-%20Strategy.md)

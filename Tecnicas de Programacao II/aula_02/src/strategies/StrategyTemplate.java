@@ -1,5 +1,5 @@
 package strategies;
 
-public interface Dia {
+public interface StrategyTemplate {
     public void mensagemDoDia();
 }

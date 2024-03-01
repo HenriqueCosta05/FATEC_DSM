@@ -1,6 +1,6 @@
-public class Principal {
+public class Client {
     public static void main(String[] args) {
-        Mensagem dia = new Mensagem();
+        Context dia = new Context();
         dia.mostrarMensagem();
     }
 }
