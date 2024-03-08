@@ -1,31 +1,18 @@
 package exercicio;
 
 public class Porta {
-   private PortaState estado;
+    public final PortaState ABERTA = new Aberta();
+    public final PortaState ABRINDO = new Abrindo();
+    public final PortaState FECHADO = new Fechada();
+    public final PortaState FECHANDO = new Fechando();
+    public final PortaState MANTER_ABERTA = new ManterAberta();
 
-    public PortaState getEstado() {
-        return estado;
-    }
+    private PortaState state;
 
-    public void setEstado(PortaState estado) {
-        this.estado = estado;
-        estado.setStatus(estado.getClass().getSimpleName());
-        System.out.println("Mudando o estado da porta para: " + estado.getStatus());
+    public void setState(PortaState state){
+        this.state = state;
     }
-
-    public void clicar() {
-        this.estado.clicar();
-    }
-
-    public void abrirPorta() {
-        this.estado.abrirPorta();
-    }
-    
-    public void fecharPorta() {
-        this.estado.fecharPorta();
-    }
-
-    public void manterPortaAberta() {
-        this.estado.manterPortaAberta();
+    public String status(){
+        return state.clicar();
     }
 }
