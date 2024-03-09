@@ -14,6 +14,8 @@ Em primeiro lugar, iniciaremos o curso de gestão de projetos, com carga horári
 
 [Aula 03](./Aula%2003.md)
 
+[Aula 04](./Aula%2004.md)
+
 # Curso Complementar
 
 [Introdução à Gestão de Projetos](./Introdução%20à%20Gestão%20de%20Projetos/README.md)
